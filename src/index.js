@@ -31,6 +31,8 @@ function renderCountry(data) {
 
 function errorCountry(error) {
   Notiflix.Notify.failure(`Oops, there is no country with that name`);
+  ulCountryList.innerHTML = '';
+  divCountryInfo.innerHTML = '';
 }
 
 // ----
